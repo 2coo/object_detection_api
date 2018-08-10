@@ -1,3 +1,10 @@
+>first check driver installation
+>if you didn't install the driver
+sudo add-apt-repository ppa:graphics-drivers/ppa
+sudo apt-get update
+sudo apt-get upgrade
+
+>&& go to Software & Updates -> Additional Drivers -> Choose latest Nvidia Driver
 CUDA installation on Ubuntu 18.04
 =================================
 ```
